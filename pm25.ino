@@ -12,7 +12,7 @@ AM2320 th(&Wire);
 #include "SSD1306.h" 
 #define OLED_SDA 5
 #define OLED_SCL 4
-SSD1306 display(0x27, OLED_SDA, OLED_SCL);
+SSD1306 display(0x3c, OLED_SDA, OLED_SCL);
 
 
 void displayPM25(String PM25, String Humid, String Temp){
