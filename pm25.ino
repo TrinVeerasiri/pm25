@@ -32,9 +32,6 @@ void displayPM25(String PM25, String Humid, String Temp){
   display.drawString(60, 40, Temp);
   display.drawString(110, 40, "C");
 
-//  display.drawString(0, 40, "ug/m3");
-//  display.display();
-
   display.display();
   
   delay(1000);
